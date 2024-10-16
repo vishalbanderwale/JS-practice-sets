@@ -162,4 +162,5 @@ const defaultParamsFunc = (a, b, c = 4) => a * b * c;
 console.log(defaultParamsFunc(3, 1)); // 12
 console.log(defaultParamsFunc(3, 10)); // 120
 console.log(defaultParamsFunc(2, 5));
-console.log(defaultParamsFunc(1,1));
+console.log(defaultParamsFunc(1, 1));
+console.log(defaultParamsFunc(1, 3));
