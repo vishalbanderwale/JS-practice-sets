@@ -139,7 +139,11 @@ console.log(
 
 // Your ES6 code here
 
-const podAndTeamAllocation = (a) => ({ ...a, teamId: 667543 });
+const podAndTeamAllocation = (a) => ({
+  ...a,
+  firstName: "vishal singh",
+  teamId: 667543,
+});
 
 const userData = { firstName: "John", lastName: "Dee" };
 
